@@ -15,10 +15,7 @@ body{
 }
 .container{
   background-color: white;
-  height:max-content;
-  width:200px;
-  margin-bottom: auto;
-  margin-top: auto;
+ 
 }
 .input{
   background-color: white;

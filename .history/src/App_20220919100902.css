@@ -1,0 +1,10 @@
+body{
+  background-color: aquamarine;
+}
+.title{
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  background-position: center;
+
+}

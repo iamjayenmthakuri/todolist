@@ -15,10 +15,25 @@ body{
 }
 .container{
   background-color: white;
-  height:max-content;
-  width:200px;
+  height: 100px;
+  width: 80px;
   margin-bottom: auto;
   margin-top: auto;
+}
+hig{
+  background-color: white;
+  height: 100px;
+  width: 80px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+  
+
+.bt{
+  background-color: red;
+  height: min-content;
+  width: min-content;
+  margin: auto;
 }
 .input{
   background-color: white;

@@ -16,9 +16,23 @@ body{
 .container{
   background-color: white;
   height:max-content;
-  width:200px;
+  width:min-content;
   margin-bottom: auto;
   margin-top: auto;
+}
+hig{
+  background-color: white;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+  
+
+.bt{
+  background-color: red;
+  height: min-content;
+  width: min-content;
+  margin: auto;
+  transform: translate(200px);
 }
 .input{
   background-color: white;

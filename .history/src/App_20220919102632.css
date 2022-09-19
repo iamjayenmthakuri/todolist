@@ -15,10 +15,7 @@ body{
 }
 .container{
   background-color: white;
-  height:max-content;
-  width:200px;
-  margin-bottom: auto;
-  margin-top: auto;
+ 
 }
 .input{
   background-color: white;
@@ -27,7 +24,7 @@ body{
   transform: translate(200px);
 }
 .button{
-  background-color:crimson;
+  background-color: white;
   height: max-content;
   width: max-content;
   transform: translate(200px);

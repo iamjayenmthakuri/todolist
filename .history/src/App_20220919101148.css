@@ -1,0 +1,14 @@
+body{
+  background-color: aquamarine;
+  position: absolute;
+  position: center;
+}
+.title{
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  background-position: center;
+  margin: auto;
+
+
+}

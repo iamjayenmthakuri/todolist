@@ -1,0 +1,18 @@
+body{
+  background-color: aquamarine;
+  display:grid;
+  background-position: center;
+  position: absolute;
+}
+.title{
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  background-position: center;
+  margin: auto;
+}
+.container{
+  background-color: blue;
+  height: fit-content;
+  width: 100%;
+}

@@ -26,18 +26,16 @@ function App() {
   };
   const completedTask = (id) =>{
     setTodoList(
-    todoList.map((task) => {
+    todoList.map((task) = () => {
       if (task.id === id ) {
-        return { ...task, completed : true };
+        return{ ...task, completed : true };
       }
       else{
         return task;
-      }
-    })
-
+      }) 
       );
 
-    };
+    }
 
   
    
@@ -49,7 +47,7 @@ function App() {
         <button className='button' onClick={addTask}>Add Task</button>
         {todoList.map((task) => {
           return(
-            <Task completed={task.completed} completedTask={completedTask} deleteTask={deleteTask} taskName={task.taskName} id={task.id}/>
+            <Task completedTask={completedTask} deleteTask={deleteTask} taskName={task.taskName} id={task.id}/>
          )
         
         })}

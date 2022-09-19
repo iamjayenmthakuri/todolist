@@ -20,6 +20,21 @@ body{
   margin-bottom: auto;
   margin-top: auto;
 }
+hig{
+  background-color: white;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+  
+
+.bt{
+  background-color: red;
+  height: min-content;
+  width: min-content;
+  margin: auto;
+  transform: translate(20px);
+  size: 5px;
+}
 .input{
   background-color: white;
   height: max-content;
